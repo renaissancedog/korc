@@ -1,0 +1,18 @@
+{
+	"name": "korc",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"lint": "eslint . && prettier --check .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.13.0",
+		"@types/eslint": "^9.6.1",
+		"eslint": "^9.13.0",
+		"eslint-config-prettier": "^9.1.0",
+		"globals": "^15.11.0",
+		"prettier": "^3.3.3"
+	},
+	"type": "module"
+}
