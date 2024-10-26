@@ -469,7 +469,6 @@ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 				} else {
 					fff=(KSP.Stages.thrust(stage, atm) / (KSP.Stages.massStart(stage) * planet.gravity)) || 0;
 				}
-				console.log(fff)
 				return fff
 			},
 			
