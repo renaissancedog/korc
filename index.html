@@ -31,10 +31,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	-->
 	<title>KSP Optimal Rocket Calculator</title>
 	<link rel="stylesheet" href="styles.css" />
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.7/underscore-min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
 	<script src="kspcalc.js"></script>
 	<script type="text/javascript">
 	
@@ -385,7 +385,7 @@ function SettingsController($scope) {
 <body>
 	<div class="container">
 		<div class="page-header">
-			<h1>KSP Optimal Rocket Calculator <small>for Kerbal Space Program 1.2</small></h1>
+			<h1>KSP Optimal Rocket Calculator <small>for Kerbal Space Program 1.12.2</small></h1>
 		</div>
 		
 		<div ng-controller="SettingsController">
@@ -598,26 +598,6 @@ function SettingsController($scope) {
 					</div>
 				</div>
 			</form>
-			
-			<div class="donate">
-				<div class="alert alert-warning">
-					<h4>Find this tool useful? Like to see it continually supported?</h4>
-					<p>
-						I am a self-employed software developer who built this tool in my free time. 
-						Unfortunately, I can't work on stuff like this all the time as I have to make money to eat and live.
-						With your support, I can continue working on this and other great tools for Kerbal Space Program that everyone can benefit from!
-					</p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-						<input type="hidden" name="cmd" value="_s-xclick"/>
-						<input type="hidden" name="hosted_button_id" value="6E5RDXCCFK2KC"/>
-						<p class="donate-line">
-							Every little bit helps. So please, consider donating to my cause: 
-							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" class="btn" border="0" name="submit" alt="Donate via PayPal" style="vertical-align:middle;"/>
-						</p>
-					</form>
-					<p>Thanks!</p>
-				</div>
-			</div>
 		
 			<div class="searchProgress alert alert-info text-center" ng-show="bestStagingsArgs">
 				<h2 ng-if="bestStagingsArgs.maxStages > 1">Found {{bestStagingsValid}} Valid Rocket Designs<small ng-if="bestStagingsInvalid"> (and {{bestStagingsCount}} Invalid)</small></h2>
@@ -683,6 +663,7 @@ function SettingsController($scope) {
 		</div>
 		
 		<div class="page-footer">
+			<p class="text-center">&copy; 2024 William Liu - All rights reserved - Licensed under the <a href="LICENSE">BSD License</a> - <a href="https://github.com/renaissancedog/korc/">GitHub</a></p>
 			<p class="text-center">&copy; 2013 Gary Court - All rights reserved - Licensed under the <a href="LICENSE">BSD License</a> - <a href="CHANGELOG.md">Changelog</a></p>
 		</div>
 	</div>

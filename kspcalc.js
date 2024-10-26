@@ -463,7 +463,14 @@ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 			
 			//Thrust-to-Weight Ratio
 			twr : function (stage, atm, planet) {
-				return (KSP.Stages.thrust(stage, atm) / (KSP.Stages.massStart(stage) * planet.gravity)) || 0;
+				let fff=0
+				if (planet.gravity==0) {
+					fff=(KSP.Stages.thrust(stage, atm) / (KSP.Stages.massStart(stage))) || 0;
+				} else {
+					fff=(KSP.Stages.thrust(stage, atm) / (KSP.Stages.massStart(stage) * planet.gravity)) || 0;
+				}
+				console.log(fff)
+				return fff
 			},
 			
 			//Total stage fuel consumption at specified atmospheric pressure (t/s)
