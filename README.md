@@ -4,7 +4,7 @@ This tool calculates the most mass/cost efficient rocket possible, with the give
 
 ## How To Use
 
-Open index.html in a modern web browser.
+Open the GitHub Pages website.
 
 1. Enter the mass (in metric tons) of the payload you are trying to move.
 2. Enter the minimum amount of Delta-V you need to accelerate it.
@@ -41,16 +41,6 @@ If you are getting wildly different numbers in Kerbal Engineer, it's likely that
 * Quickly toggle parts by size or science node
 * Optimize by X per Delta-V
 * Restrict SRBs to the first stage(s)
-
-## Support This Project
-
-Find this tool useful? Like to see it continually supported?
-
-I am a self-employed software developer who built this in my free time. 
-Unfortunately, I can't work on stuff like this all the time as I have to make money to eat and live. 
-With your support, I can continue working on this and other great tools for Kerbal Space Program that everyone can benefit from!
-
-Please click the "Donate" link on the web app to support this project! Thanks!
 
 ## License
 
