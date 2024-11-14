@@ -67,7 +67,7 @@ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 	
 	var PACKS = [
 		{
-			name:"Stock 1.12.2",
+			name:"Stock 1.12.5",
 			parts:[
 				//LF/O Engines
 				{"name":"24-77 \"Twitch\" Liquid Fuel Engine","type":TYPES.LFO_ENGINE,"size":-1.0,"cost":"230","mass":0.08,"thrust_min":0.0,"thrust_max":16.0,"throttleable":true,"isp_vac":290.0,"isp_atm":275.0,"thrust_vac":16.0,"thrust_atm":15.172413793103448,"gimbal":8.0,"last":true,"radial":true},
@@ -142,7 +142,7 @@ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 			]
 		},
 		{
-			name:"Making History 1.12.2",
+			name:"Making History 1.12.5",
 			parts:[
 				//LF/O Engines
 				{"name":"Kerbodyne KE-1 \"Mastodon\" Liquid Fuel Engine","type":TYPES.LFO_ENGINE,"size":2.0,"cost":"8000","mass":5.0,"thrust_min":0.0,"thrust_max":1350.0,"throttleable":true,"isp_vac":305.0,"isp_atm":290.0,"thrust_vac":1350.0,"thrust_atm":1283.6065573770493,"gimbal":5.0,"last":false,"radial":false},
